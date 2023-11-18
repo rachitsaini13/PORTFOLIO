@@ -7,7 +7,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { sendEmail } from '@/actions/sendEmails';
 
 
-export default function contact() {
+export default function Contact() {
     const { ref } = useSectionInView("Contact");
 
 

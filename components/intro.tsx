@@ -9,7 +9,7 @@ import { useActiveSectionContext } from '@/context/active-section-context';
 
 
 
-export default function intro() {
+export default function Intro() {
     const { ref } = useSectionInView("Home", 0.2);
     const { activeSection,setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
