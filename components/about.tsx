@@ -2,10 +2,10 @@
 
 import React from 'react'
 import SectionHeading from './section-heading'
-import { useSectionInView } from "@/lib/hooks"
+import { useSectionInView } from "@/lib/hooks";
 
-export default function about() {
-  const { ref } = useSectionInView("About", 0.6);
+export default function About() {
+  const { ref } = useSectionInView("About");
 
  
   return (    
